@@ -1,0 +1,10 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "ten_min_school",
+    "password": "c1374A#h",
+    "database": "event_management_db",
+    "entities": ["src/**/**.entity{.ts,.js}"],
+    "synchronize": true
+}

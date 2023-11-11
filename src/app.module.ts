@@ -17,7 +17,7 @@ import { ReservationsModule } from './reservations/reservations.module';
     ConfigModule.forRoot(),
     TypeOrmModule.forRoot({
       type: "mysql",
-      host: "127.0.0.1",
+      host: "db",
       port: 3306,
       username: "ten_min_school",
       password: "c1374A#h",
